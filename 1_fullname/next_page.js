@@ -1,5 +1,3 @@
-// READ MORE: https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
-
 // Initialize the method to be used for getting firstName & lastName
 const urlParams = new URLSearchParams(window.location.search);
 
