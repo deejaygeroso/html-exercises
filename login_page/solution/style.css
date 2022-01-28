@@ -16,7 +16,7 @@ body {
   /* Shows a shadow within the corner of container */
   box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
 
-  margin: 100px auto;
+  margin: 100px auto; /* This allows our container to be centered on the screen */
   padding: 10px 20px;
 
   width: 300px;
