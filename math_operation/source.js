@@ -14,11 +14,25 @@ function addValue() {
   alert("Total value: " + total);
 }
 
-// Solve this
-function subtractValue() {}
+// Solve this and use "-"
+function subtractValue() {
+  // We just copy the method from above
+  const firstValueInString = document.getElementById("firstValue").value;
+  const secondValueInString = document.getElementById("secondValue").value;
 
-// Solve this
+  // We just copy the method from above
+  const firstValueAsNumber = parseInt(firstValueInString);
+  const secondValueAsNumber = parseInt(secondValueInString);
+
+  // replace "+" with "-"
+  const total = firstValueAsNumber + secondValueAsNumber;
+
+  // show output as an alert
+  alert("Total value: " + total);
+}
+
+// Solve this and use "*"
 function multiplyValue() {}
 
-// Solve this
+// Solve this and use "/"
 function divideValue() {}
