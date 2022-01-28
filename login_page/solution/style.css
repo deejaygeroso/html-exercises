@@ -1,0 +1,84 @@
+body {
+  background: #f0f2f5;
+}
+.container {
+  /* This flex allows any elements within the container to be aligned center */
+  display: flex; /* flex, block, inline, none  */
+  flex-direction: column; /* row, column */
+  justify-content: center; /* flex-start, center, flex-end */
+  align-items: center; /* flex-start, center, flex-end */
+
+  background: white;
+
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+
+  margin: 100px auto;
+  padding: 10px 20px;
+
+  width: 300px;
+}
+
+form {
+  margin: 0
+}
+
+input {
+  border: 1px solid #dddfe2;
+  border-radius: 5px;
+
+  margin: 10px 0;
+  padding: 0 8px;
+
+  height: 40px;
+  width: 100%;
+}
+
+.forgot-password {
+  color: #1877f2;
+  font-size: 14px;
+
+  text-decoration: none; /* Remove underline of <a> tag */
+  text-align: center;
+  cursor: pointer; /* icon of mouse pointer when hovering text */
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid #dadde1;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.submit-button {
+  background: #1877f2;
+  color: white;
+
+  border: none;
+  border-radius: 6px;
+
+  padding: 0 16px;
+  margin: 10px 0;
+
+  height: 40px;
+  width: 100%;
+
+  font-size: 20px;
+  cursor: pointer; /* icon of mouse pointer when hovering button */
+}
+
+.create-account-button {
+  background: #42b72a;
+  color: white;
+
+  border: none;
+  border-radius: 6px;
+
+  padding: 0 16px;
+  margin: 0 50px;
+
+  cursor: pointer; /* icon of mouse pointer when hovering button */
+  font-size: 17px;
+  line-height: 38px;
+}

@@ -1,11 +1,32 @@
 <html>
+  <header>
+    <!-- Imports style and allows us to make UI look good -->
+    <link rel="stylesheet" href="style.css" />
+  </header>
   <body>
-    <form>
-      <label for="username">First name:</label>
-      <input type="text" id="firstName" name="firstName" /><br /><br />
-      <label for="lastName">Password:</label>
-      <input type="password" id="lastName" name="lastName" /><br /><br />
-      <input type="submit" value="Login" />
-    </form>
+    <div class="container">
+      <form class="login-form">
+        <input
+          type="text"
+          id="firstName"
+          name="firstName"
+          placeholder="Username"
+        />
+        <input
+          type="password"
+          id="lastName"
+          name="lastName"
+          placeholder="Password"
+         />
+        <button class="submit-button" type="submit" />
+          Login
+        </button>
+      </form>
+        <a href="https://www.facebook.com/" target="_blank" class='forgot-password'>Forgot Password?</a>
+        <hr/>
+        <button class="create-account-button" type="submit" />
+          Create New Account
+        </button>
+    </div>
   </body>
 </html>
