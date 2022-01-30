@@ -1,62 +1,93 @@
 * {
   box-sizing: border-box;
-}
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Style the header */
-header {
-  background-color: #666;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
-
-/* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
-  background: #ccc;
-  padding: 20px;
-}
-
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
+  margin: 0;
   padding: 0;
 }
 
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
+:root {
+  --main-background-color: #192341;
+  --main-header-height: 25%;
+  --main-section-height: 65%;
+  --main-footer-height: 10%;
+
 }
 
-/* Clear floats after the columns */
-section::after {
-  content: "";
-  display: table;
-  clear: both;
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+
+  margin: 0;
+  padding: 0;
+
+  height: 100%;
+  width: 100%;
 }
 
-/* Style the footer */
-footer {
-  background-color: #777;
-  padding: 10px;
+header {
   text-align: center;
+  font-size: 35px;
   color: white;
+
+  background: url('images/city.jpeg');
+  background-color: var(--main-background-color);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: var(--main-header-height);
+  width: 100%;
+
 }
 
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
+section {
+  display: flex;
+  flex-direction: row;
+
+  height: var(--main-section-height);
+}
+
+nav {
+  background-color: var(--main-background-color);
+  width: 225px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+nav ul li:hover {
+  background-color: #5EECBE;
+}
+nav ul li a {
+  color: #D1EEEC;
+  text-decoration: none;
+}
+
+nav ul li:hover a {
+  color: #471e79;
+}
+
+article {
+  flex: 1;
+  float: left;
+
+  background-color: #FFEECA;
+  color: var(--main-background-color);
+
+  margin: 0;
+  padding: 20px;
+}
+
+footer {
+  background-color: var(--main-background-color);
+  color: white;
+  text-align: center;
+
+  padding: 10px;
+  margin: 0;
+
+  height: var(--main-footer-height);
 }
