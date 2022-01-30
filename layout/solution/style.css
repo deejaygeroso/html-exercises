@@ -8,8 +8,8 @@
 :root {
   --main-background-color: #192341;
   --main-header-height: 25%;
-  --main-section-height: 65%;
-  --main-footer-height: 10%;
+  --main-section-height: 70%;
+  --main-footer-height: 5%;
 
 }
 
@@ -46,7 +46,7 @@ section {
 }
 
 nav {
-  background-color: var(--main-background-color);
+  background-color: #18527c;
   width: 225px;
 }
 
