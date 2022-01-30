@@ -9,3 +9,7 @@
 4. Copy the HTML elements and paste it to `main.html`
 
 5. Copy css style and paste it to `style.css`
+
+### Challenge
+
+1. Create a vertical navigation bar
