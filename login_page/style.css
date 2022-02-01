@@ -1,0 +1,46 @@
+html, body {
+  background: #c56d6d;
+}
+ 
+.login-container {
+	background: white;
+
+	border: none;
+ 	border-radius: 20px;
+ 	
+ 	box-shadow: 0 4px 16px rgb(0 0 0 / 10%);
+
+ 	margin: 100px auto;
+ 	padding: 50px 20px 20px 20px;
+ 	border: none;
+
+ 	/*height: 100px;*/
+ 	width: 300px;
+}
+
+form {
+  margin: 0 auto;
+}
+
+input {
+	height: 30px;
+	width: 100%;
+}
+
+.submit-button {
+	background: #3e3eff;
+  color: white; /* Text color */
+  font-size: 15px; /* Text size */
+
+  border: none;
+  border-radius: 6px;
+
+  padding: 0px;
+  margin: 0px;
+
+  height: 50px;
+  width: 100%;
+
+	cursor: pointer;
+
+}
