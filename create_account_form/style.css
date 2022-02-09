@@ -1,0 +1,28 @@
+html, body {
+  background: #9fcdf5;
+}
+
+.container{
+	background: #08bfd7;
+
+ 	border-radius: 20px;
+ 	border: 3px solid black;
+	
+	padding: 40px 20px 20px 40px;
+	margin:0px auto;
+
+	width: 200px
+
+}
+
+.submit-button {
+	background-color: #9fcdf5;
+	font
+
+	font-size: 15px;
+
+	border-radius: 4px;
+	padding: 8px;
+
+	width: 90%
+}
