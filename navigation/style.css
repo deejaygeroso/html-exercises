@@ -21,6 +21,10 @@ li {
   float: right;
 }
 
+li a:hover {
+  background: khaki;
+}
+
 li a {
   display: block;
   box-sizing: border-box;
